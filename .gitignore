@@ -1,0 +1,43 @@
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# SAP CPI specific
+*.iflw
+*.zip
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+target/
+build/
+dist/
+out/
+
+# Dependencies (if any local testing)
+node_modules/
+lib/
+
+# Test output
+test-output/
+test-results/
+
+# Environment files
+.env
+.env.local

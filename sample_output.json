@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "source": "SuccessFactors Employee Central",
+    "extractionDate": "2024-01-15T12:00:00Z",
+    "recordCount": 3,
+    "version": "1.0"
+  },
+  "employees": [
+    {
+      "employeeId": "EMP001",
+      "personId": "PERSON001",
+      "username": "jdoe",
+      "personalInfo": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "middleName": "Michael",
+        "displayName": "John Doe",
+        "preferredName": null,
+        "gender": null,
+        "dateOfBirth": null,
+        "nationality": null
+      },
+      "contactInfo": {
+        "email": "john.doe@example.com",
+        "phoneNumber": "+1-555-0100",
+        "mobilePhone": "+1-555-0101",
+        "addressLine1": "123 Main Street",
+        "addressLine2": "Apt 4B",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94102",
+        "country": "USA"
+      },
+      "employmentInfo": {
+        "hireDate": "2020-01-15",
+        "terminationDate": null,
+        "employmentStatus": "Active",
+        "employeeClass": "Full-time",
+        "employmentType": null,
+        "seniorityDate": null,
+        "originalStartDate": null
+      },
+      "jobInfo": {
+        "title": "Senior Software Engineer",
+        "jobCode": "SE-004",
+        "jobLevel": null,
+        "businessUnit": null,
+        "department": "Engineering",
+        "division": "Product Development",
+        "location": "San Francisco Office",
+        "costCenter": "CC-1001",
+        "company": "Tech Corp Inc.",
+        "effectiveDate": null
+      },
+      "managerInfo": {
+        "managerId": "MGR001",
+        "managerName": "Jane Smith",
+        "directManager": null,
+        "matrixManager": null
+      },
+      "organizationInfo": {
+        "currentPod": "Engineering Pod A",
+        "previousPod": "Engineering Pod B",
+        "okrPod": "Product Engineering OKR",
+        "localPod": "SF Engineering Local",
+        "globalPod": "Global Tech Pod",
+        "podEffectiveDate": "2024-01-01"
+      },
+      "leaveInfo": {
+        "onLeave": null,
+        "onPaidLeave": false,
+        "leaveStartDate": null,
+        "leaveEndDate": null,
+        "leaveType": null
+      },
+      "quotaInfo": {
+        "currentPodQuota": 100.50,
+        "okrPodQuota": 75.25,
+        "localPodQuota": 50.00,
+        "globalPodQuota": 125.75
+      },
+      "compensationInfo": {
+        "payGrade": "PG-05",
+        "payGroup": null,
+        "fte": 1.0,
+        "standardHours": null
+      },
+      "systemInfo": {
+        "lastModifiedDate": "2024-01-15T10:30:00Z",
+        "createdDate": null,
+        "status": "Active",
+        "isActive": true
+      },
+      "customFields": {
+        "custom14": null,
+        "custom15": null,
+        "vcEffectiveDate": null
+      }
+    },
+    {
+      "employeeId": "EMP002",
+      "personId": "PERSON002",
+      "username": "asmith",
+      "personalInfo": {
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "middleName": null,
+        "displayName": "Alice Smith",
+        "preferredName": null,
+        "gender": null,
+        "dateOfBirth": null,
+        "nationality": null
+      },
+      "contactInfo": {
+        "email": "alice.smith@example.com",
+        "phoneNumber": "+1-555-0200",
+        "mobilePhone": "+1-555-0201",
+        "addressLine1": "456 Oak Avenue",
+        "addressLine2": null,
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "USA"
+      },
+      "employmentInfo": {
+        "hireDate": "2019-06-01",
+        "terminationDate": null,
+        "employmentStatus": "Active",
+        "employeeClass": "Full-time",
+        "employmentType": null,
+        "seniorityDate": null,
+        "originalStartDate": null
+      },
+      "jobInfo": {
+        "title": "Product Manager",
+        "jobCode": "PM-003",
+        "jobLevel": null,
+        "businessUnit": null,
+        "department": "Product",
+        "division": "Product Management",
+        "location": "New York Office",
+        "costCenter": "CC-2001",
+        "company": "Tech Corp Inc.",
+        "effectiveDate": null
+      },
+      "managerInfo": {
+        "managerId": "MGR002",
+        "managerName": "Bob Johnson",
+        "directManager": null,
+        "matrixManager": null
+      },
+      "organizationInfo": {
+        "currentPod": "Product Pod X",
+        "previousPod": "Product Pod Y",
+        "okrPod": "Product Strategy OKR",
+        "localPod": "NY Product Local",
+        "globalPod": "Global Product Pod",
+        "podEffectiveDate": "2024-01-01"
+      },
+      "leaveInfo": {
+        "onLeave": null,
+        "onPaidLeave": true,
+        "leaveStartDate": "2024-02-01",
+        "leaveEndDate": "2024-02-28",
+        "leaveType": null
+      },
+      "quotaInfo": {
+        "currentPodQuota": 90.00,
+        "okrPodQuota": 60.00,
+        "localPodQuota": 45.00,
+        "globalPodQuota": 110.00
+      },
+      "compensationInfo": {
+        "payGrade": "PG-06",
+        "payGroup": null,
+        "fte": 1.0,
+        "standardHours": null
+      },
+      "systemInfo": {
+        "lastModifiedDate": "2024-01-10T14:20:00Z",
+        "createdDate": null,
+        "status": "Active",
+        "isActive": true
+      },
+      "customFields": {
+        "custom14": null,
+        "custom15": null,
+        "vcEffectiveDate": null
+      }
+    },
+    {
+      "employeeId": "EMP003",
+      "personId": "PERSON003",
+      "username": "bwilson",
+      "personalInfo": {
+        "firstName": "Bob",
+        "lastName": "Wilson",
+        "middleName": null,
+        "displayName": "Bob Wilson",
+        "preferredName": null,
+        "gender": null,
+        "dateOfBirth": null,
+        "nationality": null
+      },
+      "contactInfo": {
+        "email": "bob.wilson@example.com",
+        "phoneNumber": null,
+        "mobilePhone": null,
+        "addressLine1": null,
+        "addressLine2": null,
+        "city": null,
+        "state": null,
+        "postalCode": null,
+        "country": null
+      },
+      "employmentInfo": {
+        "hireDate": "2018-03-15",
+        "terminationDate": "2023-12-31",
+        "employmentStatus": "Terminated",
+        "employeeClass": "Full-time",
+        "employmentType": null,
+        "seniorityDate": null,
+        "originalStartDate": null
+      },
+      "jobInfo": {
+        "title": "Data Analyst",
+        "jobCode": "DA-002",
+        "jobLevel": null,
+        "businessUnit": null,
+        "department": "Data Analytics",
+        "division": null,
+        "location": "Austin Office",
+        "costCenter": "CC-3001",
+        "company": "Tech Corp Inc.",
+        "effectiveDate": null
+      },
+      "managerInfo": {
+        "managerId": "MGR003",
+        "managerName": null,
+        "directManager": null,
+        "matrixManager": null
+      },
+      "organizationInfo": {
+        "currentPod": "Analytics Pod Alpha",
+        "previousPod": null,
+        "okrPod": "Data OKR",
+        "localPod": null,
+        "globalPod": null,
+        "podEffectiveDate": null
+      },
+      "leaveInfo": {
+        "onLeave": null,
+        "onPaidLeave": null,
+        "leaveStartDate": null,
+        "leaveEndDate": null,
+        "leaveType": null
+      },
+      "quotaInfo": {
+        "currentPodQuota": 80.00,
+        "okrPodQuota": null,
+        "localPodQuota": null,
+        "globalPodQuota": null
+      },
+      "compensationInfo": {
+        "payGrade": null,
+        "payGroup": null,
+        "fte": null,
+        "standardHours": null
+      },
+      "systemInfo": {
+        "lastModifiedDate": null,
+        "createdDate": null,
+        "status": "Terminated",
+        "isActive": false
+      },
+      "customFields": {
+        "custom14": null,
+        "custom15": null,
+        "vcEffectiveDate": null
+      }
+    }
+  ]
+}

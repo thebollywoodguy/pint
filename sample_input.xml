@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample SuccessFactors Employee Central SOAP API Response -->
+<!-- This is a test input for the SFECToOGPTMapping.groovy script -->
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+               xmlns:sfapi="http://www.successfactors.com/sfapi/v1">
+  <soap:Header/>
+  <soap:Body>
+    <sfapi:queryResponse>
+      <!-- Employee 1 -->
+      <sfapi:User>
+        <sfapi:userId>EMP001</sfapi:userId>
+        <sfapi:personIdExternal>PERSON001</sfapi:personIdExternal>
+        <sfapi:username>jdoe</sfapi:username>
+        <sfapi:firstName>John</sfapi:firstName>
+        <sfapi:lastName>Doe</sfapi:lastName>
+        <sfapi:middleName>Michael</sfapi:middleName>
+        <sfapi:displayName>John Doe</sfapi:displayName>
+        <sfapi:email>john.doe@example.com</sfapi:email>
+        <sfapi:businessPhone>+1-555-0100</sfapi:businessPhone>
+        <sfapi:cellPhone>+1-555-0101</sfapi:cellPhone>
+        <sfapi:address1>123 Main Street</sfapi:address1>
+        <sfapi:address2>Apt 4B</sfapi:address2>
+        <sfapi:city>San Francisco</sfapi:city>
+        <sfapi:state>CA</sfapi:state>
+        <sfapi:zipCode>94102</sfapi:zipCode>
+        <sfapi:country>USA</sfapi:country>
+        <sfapi:hireDate>2020-01-15</sfapi:hireDate>
+        <sfapi:status>Active</sfapi:status>
+        <sfapi:employeeClass>Full-time</sfapi:employeeClass>
+        <sfapi:title>Senior Software Engineer</sfapi:title>
+        <sfapi:jobCode>SE-004</sfapi:jobCode>
+        <sfapi:department>Engineering</sfapi:department>
+        <sfapi:division>Product Development</sfapi:division>
+        <sfapi:location>San Francisco Office</sfapi:location>
+        <sfapi:costCenter>CC-1001</sfapi:costCenter>
+        <sfapi:company>Tech Corp Inc.</sfapi:company>
+        <sfapi:managerId>MGR001</sfapi:managerId>
+        <sfapi:managerName>Jane Smith</sfapi:managerName>
+        <sfapi:custom01>Engineering Pod A</sfapi:custom01>
+        <sfapi:custom02>Engineering Pod B</sfapi:custom02>
+        <sfapi:custom03>Product Engineering OKR</sfapi:custom03>
+        <sfapi:custom04>SF Engineering Local</sfapi:custom04>
+        <sfapi:custom05>Global Tech Pod</sfapi:custom05>
+        <sfapi:custom06>2024-01-01</sfapi:custom06>
+        <sfapi:custom07>false</sfapi:custom07>
+        <sfapi:custom08></sfapi:custom08>
+        <sfapi:custom09></sfapi:custom09>
+        <sfapi:custom10>100.50</sfapi:custom10>
+        <sfapi:custom11>75.25</sfapi:custom11>
+        <sfapi:custom12>50.00</sfapi:custom12>
+        <sfapi:custom13>125.75</sfapi:custom13>
+        <sfapi:payGrade>PG-05</sfapi:payGrade>
+        <sfapi:fte>1.0</sfapi:fte>
+        <sfapi:lastModifiedDate>2024-01-15T10:30:00Z</sfapi:lastModifiedDate>
+        <sfapi:isActive>true</sfapi:isActive>
+      </sfapi:User>
+      
+      <!-- Employee 2 -->
+      <sfapi:User>
+        <sfapi:userId>EMP002</sfapi:userId>
+        <sfapi:personIdExternal>PERSON002</sfapi:personIdExternal>
+        <sfapi:username>asmith</sfapi:username>
+        <sfapi:firstName>Alice</sfapi:firstName>
+        <sfapi:lastName>Smith</sfapi:lastName>
+        <sfapi:displayName>Alice Smith</sfapi:displayName>
+        <sfapi:email>alice.smith@example.com</sfapi:email>
+        <sfapi:businessPhone>+1-555-0200</sfapi:businessPhone>
+        <sfapi:cellPhone>+1-555-0201</sfapi:cellPhone>
+        <sfapi:address1>456 Oak Avenue</sfapi:address1>
+        <sfapi:city>New York</sfapi:city>
+        <sfapi:state>NY</sfapi:state>
+        <sfapi:zipCode>10001</sfapi:zipCode>
+        <sfapi:country>USA</sfapi:country>
+        <sfapi:hireDate>2019-06-01</sfapi:hireDate>
+        <sfapi:status>Active</sfapi:status>
+        <sfapi:employeeClass>Full-time</sfapi:employeeClass>
+        <sfapi:title>Product Manager</sfapi:title>
+        <sfapi:jobCode>PM-003</sfapi:jobCode>
+        <sfapi:department>Product</sfapi:department>
+        <sfapi:division>Product Management</sfapi:division>
+        <sfapi:location>New York Office</sfapi:location>
+        <sfapi:costCenter>CC-2001</sfapi:costCenter>
+        <sfapi:company>Tech Corp Inc.</sfapi:company>
+        <sfapi:managerId>MGR002</sfapi:managerId>
+        <sfapi:managerName>Bob Johnson</sfapi:managerName>
+        <sfapi:custom01>Product Pod X</sfapi:custom01>
+        <sfapi:custom02>Product Pod Y</sfapi:custom02>
+        <sfapi:custom03>Product Strategy OKR</sfapi:custom03>
+        <sfapi:custom04>NY Product Local</sfapi:custom04>
+        <sfapi:custom05>Global Product Pod</sfapi:custom05>
+        <sfapi:custom06>2024-01-01</sfapi:custom06>
+        <sfapi:custom07>true</sfapi:custom07>
+        <sfapi:custom08>2024-02-01</sfapi:custom08>
+        <sfapi:custom09>2024-02-28</sfapi:custom09>
+        <sfapi:custom10>90.00</sfapi:custom10>
+        <sfapi:custom11>60.00</sfapi:custom11>
+        <sfapi:custom12>45.00</sfapi:custom12>
+        <sfapi:custom13>110.00</sfapi:custom13>
+        <sfapi:payGrade>PG-06</sfapi:payGrade>
+        <sfapi:fte>1.0</sfapi:fte>
+        <sfapi:lastModifiedDate>2024-01-10T14:20:00Z</sfapi:lastModifiedDate>
+        <sfapi:isActive>true</sfapi:isActive>
+      </sfapi:User>
+      
+      <!-- Employee 3 - Terminated Employee -->
+      <sfapi:User>
+        <sfapi:userId>EMP003</sfapi:userId>
+        <sfapi:personIdExternal>PERSON003</sfapi:personIdExternal>
+        <sfapi:username>bwilson</sfapi:username>
+        <sfapi:firstName>Bob</sfapi:firstName>
+        <sfapi:lastName>Wilson</sfapi:lastName>
+        <sfapi:displayName>Bob Wilson</sfapi:displayName>
+        <sfapi:email>bob.wilson@example.com</sfapi:email>
+        <sfapi:hireDate>2018-03-15</sfapi:hireDate>
+        <sfapi:terminationDate>2023-12-31</sfapi:terminationDate>
+        <sfapi:status>Terminated</sfapi:status>
+        <sfapi:employeeClass>Full-time</sfapi:employeeClass>
+        <sfapi:title>Data Analyst</sfapi:title>
+        <sfapi:jobCode>DA-002</sfapi:jobCode>
+        <sfapi:department>Data Analytics</sfapi:department>
+        <sfapi:location>Austin Office</sfapi:location>
+        <sfapi:costCenter>CC-3001</sfapi:costCenter>
+        <sfapi:company>Tech Corp Inc.</sfapi:company>
+        <sfapi:managerId>MGR003</sfapi:managerId>
+        <sfapi:custom01>Analytics Pod Alpha</sfapi:custom01>
+        <sfapi:custom03>Data OKR</sfapi:custom03>
+        <sfapi:custom10>80.00</sfapi:custom10>
+        <sfapi:isActive>false</sfapi:isActive>
+      </sfapi:User>
+    </sfapi:queryResponse>
+  </soap:Body>
+</soap:Envelope>
