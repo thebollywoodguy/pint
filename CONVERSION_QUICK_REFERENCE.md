@@ -10,7 +10,7 @@
 | **NULL Handling** | `NVL(col, default)` | `IFNULL(col, default)` or `COALESCE(col, default)` |
 | **Current Date** | `SYSDATE` | `CURRENT_DATE` or `CURRENT_TIMESTAMP` |
 | **Dummy Table** | `FROM dual` | `FROM DUMMY` |
-| **String Position** | `INSTR(str, substr)` | `LOCATE(str, substr)` |
+| **String Position** | `INSTR(str, substr)` | `LOCATE(substr, str)` Note: parameter order reversed |
 | **Substring** | `SUBSTR(str, pos, len)` | `SUBSTRING(str, pos, len)` |
 | **Cursor Loop** | `FOR rec IN cursor` | `FOR rec AS cursor DO ... END FOR;` |
 | **IF Statement** | `IF condition THEN ... END IF;` | `IF condition THEN ... END IF;` |
@@ -35,7 +35,7 @@ DECLARE v_pos INTEGER;
 v_string := field;
 
 WHILE LENGTH(v_string) > 0 DO
-  v_pos := LOCATE(v_string, ';');
+  v_pos := LOCATE(';', v_string);
   
   IF v_pos > 0 THEN
     v_token := TRIM(SUBSTRING(v_string, 1, v_pos - 1));

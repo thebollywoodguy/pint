@@ -56,7 +56,7 @@ end if;
         
         -- Loop through semicolon-separated values
         WHILE LENGTH(v_pod_string) > 0 DO
-          v_pos := LOCATE(v_pod_string, ';');
+          v_pos := LOCATE(';', v_pod_string);
           
           IF v_pos > 0 THEN
             v_pod_token := TRIM(SUBSTRING(v_pod_string, 1, v_pos - 1));
